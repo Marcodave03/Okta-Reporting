@@ -1,0 +1,3738 @@
+﻿OKTA PULLED DATA - SINGLE USER
+================================
+Requested user: marco.dermawan@difinite.com
+Generated: 2026-10-19T06:32:30.537Z
+Raw secrets/tokens excluded.
+
+=== USER / IDENTITY ===
+{
+  "_id": "6ad1f95df58ce8851c2620a1",
+  "oktaId": "00u18erussuY04QmT698",
+  "email": "marco.dermawan@difinite.com",
+  "login": "marco.dermawan@difinite.com",
+  "displayName": "Marco Dermawan",
+  "firstName": "Marco",
+  "lastName": "Dermawan",
+  "department": "",
+  "title": "",
+  "location": "",
+  "employeeType": "",
+  "status": "ACTIVE",
+  "lifecycle": "joiner",
+  "lastLogin": "2026-10-16T12:50:28.000Z",
+  "riskLevel": "medium",
+  "riskScore": 40,
+  "source": "okta",
+  "lastSyncedAt": "2026-10-19T02:24:43.795Z"
+}
+
+=== CURRENT ASSIGNMENTS MAPPED TO OKTA APPLICATIONS ===
+[
+  {
+    "assignmentId": "6ad1f960f58ce8851c2620e3",
+    "entitlementId": "6ad1f95ff58ce8851c2620c5",
+    "entitlement": "My OIDC Web - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f95ff58ce8851c2620c3",
+    "applicationOktaId": "0oa13hr9bmkxNCQ79698",
+    "application": "My OIDC Web",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:36:53.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f961f58ce8851c26210b",
+    "entitlementId": "6ad1f960f58ce8851c2620f9",
+    "entitlement": "My SAML Web - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f960f58ce8851c2620f7",
+    "applicationOktaId": "0oa13hy89a63OiquB698",
+    "application": "My SAML Web",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:36:53.000Z",
+    "lastUsedAt": "2026-10-14T04:05:26.735Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f96df58ce8851c2621ab",
+    "entitlementId": "6ad1f96bf58ce8851c262196",
+    "entitlement": "Okta Admin Console - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f96bf58ce8851c262194",
+    "applicationOktaId": "0oaselw1xrLdbxB7j697",
+    "application": "Okta Admin Console",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:39:39.000Z",
+    "lastUsedAt": "2026-10-16T12:50:29.126Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f96ff58ce8851c2621c9",
+    "entitlementId": "6ad1f96ef58ce8851c2621c1",
+    "entitlement": "Okta Workflows - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f96ef58ce8851c2621bf",
+    "applicationOktaId": "0oasemge7zQ2mLeqG697",
+    "application": "Okta Workflows",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:39:40.000Z",
+    "lastUsedAt": "2026-10-16T02:31:17.552Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f96ff58ce8851c2621d6",
+    "entitlementId": "6ad1f96ff58ce8851c2621ce",
+    "entitlement": "Okta Workflows OAuth - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f96ff58ce8851c2621cc",
+    "applicationOktaId": "0oasemge8oXgXLRBV697",
+    "application": "Okta Workflows OAuth",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:39:40.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f970f58ce8851c2621e4",
+    "entitlementId": "6ad1f96ff58ce8851c2621db",
+    "entitlement": "Okta Access Certification Reviews - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f96ff58ce8851c2621d9",
+    "applicationOktaId": "0oasemgh22cShTgNR697",
+    "application": "Okta Access Certification Reviews",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:36:53.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f971f58ce8851c262219",
+    "entitlementId": "6ad1f970f58ce8851c26220f",
+    "entitlement": "Okta Access Requests - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f970f58ce8851c26220d",
+    "applicationOktaId": "0oasemlhqwz7pLRsG697",
+    "application": "Okta Access Requests",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:36:53.000Z",
+    "lastUsedAt": "2026-10-15T08:19:29.344Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f976f58ce8851c26229d",
+    "entitlementId": "6ad1f976f58ce8851c26227d",
+    "entitlement": "Partner Admin Portal - Access",
+    "entitlementKind": "app",
+    "applicationId": "6ad1f976f58ce8851c26227b",
+    "applicationOktaId": "0oaz44xko84mdLxTS697",
+    "application": "Partner Admin Portal",
+    "assignmentSource": "Direct application assignment",
+    "grantedAt": "2026-10-06T10:39:40.000Z",
+    "lastUsedAt": "2026-10-07T04:04:54.698Z",
+    "source": "okta"
+  }
+]
+
+=== GROUP MEMBERSHIPS ===
+[
+  {
+    "assignmentId": "6ad1f960f58ce8851c2620e3",
+    "groupOktaId": "app:0oa13hr9bmkxNCQ79698",
+    "group": "My OIDC Web - Access",
+    "application": "My OIDC Web",
+    "applicationOktaId": "0oa13hr9bmkxNCQ79698",
+    "joinedAt": "2026-10-06T10:36:53.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f961f58ce8851c26210b",
+    "groupOktaId": "app:0oa13hy89a63OiquB698",
+    "group": "My SAML Web - Access",
+    "application": "My SAML Web",
+    "applicationOktaId": "0oa13hy89a63OiquB698",
+    "joinedAt": "2026-10-06T10:36:53.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f96df58ce8851c2621ab",
+    "groupOktaId": "app:0oaselw1xrLdbxB7j697",
+    "group": "Okta Admin Console - Access",
+    "application": "Okta Admin Console",
+    "applicationOktaId": "0oaselw1xrLdbxB7j697",
+    "joinedAt": "2026-10-06T10:39:39.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f96ff58ce8851c2621c9",
+    "groupOktaId": "app:0oasemge7zQ2mLeqG697",
+    "group": "Okta Workflows - Access",
+    "application": "Okta Workflows",
+    "applicationOktaId": "0oasemge7zQ2mLeqG697",
+    "joinedAt": "2026-10-06T10:39:40.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f96ff58ce8851c2621d6",
+    "groupOktaId": "app:0oasemge8oXgXLRBV697",
+    "group": "Okta Workflows OAuth - Access",
+    "application": "Okta Workflows OAuth",
+    "applicationOktaId": "0oasemge8oXgXLRBV697",
+    "joinedAt": "2026-10-06T10:39:40.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f970f58ce8851c2621e4",
+    "groupOktaId": "app:0oasemgh22cShTgNR697",
+    "group": "Okta Access Certification Reviews - Access",
+    "application": "Okta Access Certification Reviews",
+    "applicationOktaId": "0oasemgh22cShTgNR697",
+    "joinedAt": "2026-10-06T10:36:53.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f971f58ce8851c262219",
+    "groupOktaId": "app:0oasemlhqwz7pLRsG697",
+    "group": "Okta Access Requests - Access",
+    "application": "Okta Access Requests",
+    "applicationOktaId": "0oasemlhqwz7pLRsG697",
+    "joinedAt": "2026-10-06T10:36:53.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f976f58ce8851c26229d",
+    "groupOktaId": "app:0oaz44xko84mdLxTS697",
+    "group": "Partner Admin Portal - Access",
+    "application": "Partner Admin Portal",
+    "applicationOktaId": "0oaz44xko84mdLxTS697",
+    "joinedAt": "2026-10-06T10:39:40.000Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f979f58ce8851c2622c1",
+    "groupOktaId": "00g18p4p1xc0SE1PD698",
+    "group": "CB-Finance",
+    "joinedAt": "2026-10-16T10:16:25.510Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f97af58ce8851c2622cc",
+    "groupOktaId": "00g18jd10vc2oUd4C698",
+    "group": "CB-Security-Approvers",
+    "joinedAt": "2026-10-16T10:16:26.461Z",
+    "source": "okta"
+  },
+  {
+    "assignmentId": "6ad1f97bf58ce8851c2622e2",
+    "groupOktaId": "00gselw1zcLHSj4C7697",
+    "group": "Everyone",
+    "joinedAt": "2026-10-16T10:16:27.889Z",
+    "source": "okta"
+  }
+]
+
+=== OKTA SYSTEM LOG APP ACCESS EVENTS ===
+[
+  {
+    "_id": "6ad20361f58ce8851c278a16",
+    "uuid": "6e69cbc7-c936-11f1-8002-bf75a80d0433",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:58:32.799Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-16T07:51:44.304Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18sijrxcFhyU1E698",
+        "type": "AppUser",
+        "alternateId": "mordekhaigerinlumangkun@gmail.com",
+        "displayName": "Kai Lumangkun"
+      },
+      {
+        "id": "0oa18si4jbs4FWAat698",
+        "type": "AppInstance",
+        "alternateId": "piggy-bank",
+        "displayName": "piggy-bank"
+      },
+      {
+        "id": "00u18shfiumRwTmFB698",
+        "type": "User",
+        "alternateId": "mordekhaigerinlumangkun@gmail.com",
+        "displayName": "Kai Lumangkun"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:58:32.799Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18shfiumRwTmFB698"
+    ]
+  },
+  {
+    "_id": "6ad20361f58ce8851c278a15",
+    "uuid": "6e5afeb5-c936-11f1-8002-bf75a80d0433",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:58:32.799Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-16T07:51:44.207Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18sijrx25mcJNB698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18si4jbs4FWAat698",
+        "type": "AppInstance",
+        "alternateId": "piggy-bank",
+        "displayName": "piggy-bank"
+      },
+      {
+        "id": "00u18sfa5kq0JGuKu698",
+        "type": "User",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:58:32.799Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18sfa5kq0JGuKu698"
+    ]
+  },
+  {
+    "_id": "6ad20361f58ce8851c278a13",
+    "uuid": "6e4b9563-c936-11f1-8002-bf75a80d0433",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:58:32.799Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-16T07:51:44.106Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18sijrwtbsWUe3698",
+        "type": "AppUser",
+        "alternateId": "rino.saro@mock.com",
+        "displayName": "Rino Saro"
+      },
+      {
+        "id": "0oa18si4jbs4FWAat698",
+        "type": "AppInstance",
+        "alternateId": "piggy-bank",
+        "displayName": "piggy-bank"
+      },
+      {
+        "id": "00u18s3r7qpneSp6Y698",
+        "type": "User",
+        "alternateId": "rino.saro@mock.com",
+        "displayName": "Rino Saro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:58:32.799Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18s3r7qpneSp6Y698"
+    ]
+  },
+  {
+    "_id": "6ad20361f58ce8851c278a12",
+    "uuid": "6e3b68c2-c936-11f1-8002-bf75a80d0433",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:58:32.799Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-16T07:51:44.000Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18sijrwjGnCAhq698",
+        "type": "AppUser",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      },
+      {
+        "id": "0oa18si4jbs4FWAat698",
+        "type": "AppInstance",
+        "alternateId": "piggy-bank",
+        "displayName": "piggy-bank"
+      },
+      {
+        "id": "00u18s402biXl5ORq698",
+        "type": "User",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:58:32.799Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18s402biXl5ORq698"
+    ]
+  },
+  {
+    "_id": "6ad20361f58ce8851c278a11",
+    "uuid": "6e2373ed-c936-11f1-8002-bf75a80d0433",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:58:32.799Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-16T07:51:43.843Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18sijrw3LI6AWo698",
+        "type": "AppUser",
+        "alternateId": "mordekhai.gerine@difinite.com",
+        "displayName": "Mordekhai Gerin"
+      },
+      {
+        "id": "0oa18si4jbs4FWAat698",
+        "type": "AppInstance",
+        "alternateId": "piggy-bank",
+        "displayName": "piggy-bank"
+      },
+      {
+        "id": "00u15fwl3n4PkAZTU698",
+        "type": "User",
+        "alternateId": "mordekhai.gerine@difinite.com",
+        "displayName": "Mordekhai Gerin"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:58:32.799Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u15fwl3n4PkAZTU698"
+    ]
+  },
+  {
+    "_id": "6ad202b9f58ce8851c2778c1",
+    "uuid": "09250058-c873-11f1-9199-cb4a2bfaa3a5",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:29.692Z",
+    "displayMessage": "Remove user's application membership",
+    "eventType": "application.user_membership.remove",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T08:33:02.541Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qrrppsrGp4mX698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18jqkvx1dkg2NS698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking 2",
+        "displayName": "(Header Auth) Governance with SCIM 2.0"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "00g18j9nt26dxfRka698",
+        "type": "UserGroup",
+        "alternateId": "unknown",
+        "displayName": "CB-Teller"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:29.692Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad202b9f58ce8851c27789e",
+    "uuid": "864df998-c872-11f1-9a58-ad2797ef9a7a",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:29.692Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T08:29:23.028Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qrrppsrGp4mX698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18jqkvx1dkg2NS698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking 2",
+        "displayName": "(Header Auth) Governance with SCIM 2.0"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:29.692Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad202b8f58ce8851c277864",
+    "uuid": "0ae4c3a6-c871-11f1-8472-03b40899929f",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:29.692Z",
+    "displayMessage": "Remove user's application membership",
+    "eventType": "application.user_membership.remove",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T08:18:46.482Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18oxb3fgEiOHhY698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18jqkvx1dkg2NS698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking 2",
+        "displayName": "(Header Auth) Governance with SCIM 2.0"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "00g18j9nt26dxfRka698",
+        "type": "UserGroup",
+        "alternateId": "unknown",
+        "displayName": "CB-Teller"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:29.692Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277034",
+    "uuid": "a4b7a5f7-c84a-11f1-9a58-ad2797ef9a7a",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:43:54.183Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qjcnvlC9skWf698",
+        "type": "AppUser",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      },
+      {
+        "id": "00u18qj8rk9ZXFa7B698",
+        "type": "User",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rk9ZXFa7B698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277020",
+    "uuid": "5fd02f07-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:58.581Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rl9xAerEo698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18qj8rkrEpggS1698",
+        "type": "User",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rkrEpggS1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c27701d",
+    "uuid": "5fc49643-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:58.505Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rl7umSolA698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oasemgh22cShTgNR697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Certification Reviews",
+        "displayName": "Okta Access Certification Reviews"
+      },
+      {
+        "id": "00u18qj8rkrEpggS1698",
+        "type": "User",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rkrEpggS1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c27701c",
+    "uuid": "5fb972b1-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:58.432Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rl4oFRv2s698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa13hy89a63OiquB698",
+        "type": "AppInstance",
+        "alternateId": "My SAML Web",
+        "displayName": "My SAML Web"
+      },
+      {
+        "id": "00u18qj8rkrEpggS1698",
+        "type": "User",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rkrEpggS1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c27701b",
+    "uuid": "5fac7a5e-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:58.347Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rkyG0HVlW698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18qj8rkrEpggS1698",
+        "type": "User",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rkrEpggS1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277018",
+    "uuid": "5f971d95-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:58.207Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj9fud07cuvO698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      },
+      {
+        "id": "00u18qj8rkrEpggS1698",
+        "type": "User",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rkrEpggS1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277015",
+    "uuid": "5f7b3121-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:58.024Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rkoEcWux7698",
+        "type": "AppUser",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18qj8rk9ZXFa7B698",
+        "type": "User",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rk9ZXFa7B698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277014",
+    "uuid": "5f6f985e-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.948Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rkmVgLwTn698",
+        "type": "AppUser",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      },
+      {
+        "id": "0oasemgh22cShTgNR697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Certification Reviews",
+        "displayName": "Okta Access Certification Reviews"
+      },
+      {
+        "id": "00u18qj8rk9ZXFa7B698",
+        "type": "User",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rk9ZXFa7B698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277013",
+    "uuid": "5f6474cc-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.875Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rkjxXGkiJ698",
+        "type": "AppUser",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      },
+      {
+        "id": "0oa13hy89a63OiquB698",
+        "type": "AppInstance",
+        "alternateId": "My SAML Web",
+        "displayName": "My SAML Web"
+      },
+      {
+        "id": "00u18qj8rk9ZXFa7B698",
+        "type": "User",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rk9ZXFa7B698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277012",
+    "uuid": "5f5866db-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.796Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rkdAabsjV698",
+        "type": "AppUser",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18qj8rk9ZXFa7B698",
+        "type": "User",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rk9ZXFa7B698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c27700e",
+    "uuid": "5f430a19-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.656Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qjcnvlC9skWf698",
+        "type": "AppUser",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      },
+      {
+        "id": "00u18qj8rk9ZXFa7B698",
+        "type": "User",
+        "alternateId": "maya.utami@mock.com",
+        "displayName": "Maya Utami"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj8rk9ZXFa7B698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c27700a",
+    "uuid": "5f27e0f3-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.478Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rk6h5m6j7698",
+        "type": "AppUser",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18qj36tsHNSjR1698",
+        "type": "User",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36tsHNSjR1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277009",
+    "uuid": "5f1c6f3c-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.403Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rk4gVec21698",
+        "type": "AppUser",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      },
+      {
+        "id": "0oasemgh22cShTgNR697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Certification Reviews",
+        "displayName": "Okta Access Certification Reviews"
+      },
+      {
+        "id": "00u18qj36tsHNSjR1698",
+        "type": "User",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36tsHNSjR1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277008",
+    "uuid": "5f1172ba-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.331Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rk1rzOS59698",
+        "type": "AppUser",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      },
+      {
+        "id": "0oa13hy89a63OiquB698",
+        "type": "AppInstance",
+        "alternateId": "My SAML Web",
+        "displayName": "My SAML Web"
+      },
+      {
+        "id": "00u18qj36tsHNSjR1698",
+        "type": "User",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36tsHNSjR1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277007",
+    "uuid": "5f058bd8-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.253Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj8rjvGKOuvV698",
+        "type": "AppUser",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18qj36tsHNSjR1698",
+        "type": "User",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36tsHNSjR1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277005",
+    "uuid": "5ef16792-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:57.121Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qjcnvh8fFy7d698",
+        "type": "AppUser",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      },
+      {
+        "id": "00u18qj36tsHNSjR1698",
+        "type": "User",
+        "alternateId": "agus.setiawan@mock.com",
+        "displayName": "Agus Setiawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36tsHNSjR1698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277002",
+    "uuid": "5ed6175e-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:56.942Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj36tpKNNQjn698",
+        "type": "AppUser",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18qj36taz3Fc5T698",
+        "type": "User",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36taz3Fc5T698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277001",
+    "uuid": "5eca096b-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:56.863Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj36tndqT6oB698",
+        "type": "AppUser",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      },
+      {
+        "id": "0oasemgh22cShTgNR697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Certification Reviews",
+        "displayName": "Okta Access Certification Reviews"
+      },
+      {
+        "id": "00u18qj36taz3Fc5T698",
+        "type": "User",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36taz3Fc5T698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c277000",
+    "uuid": "5ebe228a-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:56.785Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj36tk19JJKi698",
+        "type": "AppUser",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      },
+      {
+        "id": "0oa13hy89a63OiquB698",
+        "type": "AppInstance",
+        "alternateId": "My SAML Web",
+        "displayName": "My SAML Web"
+      },
+      {
+        "id": "00u18qj36taz3Fc5T698",
+        "type": "User",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36taz3Fc5T698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c276fff",
+    "uuid": "5ead80b7-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:56.676Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj36te52W0gR698",
+        "type": "AppUser",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18qj36taz3Fc5T698",
+        "type": "User",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36taz3Fc5T698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c276ffd",
+    "uuid": "5e92a5b4-c84a-11f1-a85b-37a5642fc4c9",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:56.500Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qjcnvcACn4kl698",
+        "type": "AppUser",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      },
+      {
+        "id": "00u18qj36taz3Fc5T698",
+        "type": "User",
+        "alternateId": "dewi.lestari@mock.com",
+        "displayName": "Dewi Lestari"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qj36taz3Fc5T698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c276ff1",
+    "uuid": "3f8df8e3-c84a-11f1-8e80-a36653fc4b97",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:04.460Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18eqo1caY9yoCi698",
+        "type": "AppUser",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18eqha13hZos2H698",
+        "type": "User",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18eqha13hZos2H698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c276fef",
+    "uuid": "3f3810ad-c84a-11f1-8e80-a36653fc4b97",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:03.897Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18eqo1cdiGFUEv698",
+        "type": "AppUser",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18eqha13hZos2H698",
+        "type": "User",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18eqha13hZos2H698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c276fd9",
+    "uuid": "3ec949a6-c84a-11f1-8d60-3f4784768d0d",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:03.171Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18nhgv7xa4Jjkj698",
+        "type": "AppUser",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      },
+      {
+        "id": "00u18eqha13hZos2H698",
+        "type": "User",
+        "alternateId": "eko.saputri@mock.com",
+        "displayName": "Eko Saputro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18eqha13hZos2H698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c276fd8",
+    "uuid": "3ec30814-c84a-11f1-8d60-3f4784768d0d",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:41:03.130Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj9fud07cuvO698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20288f58ce8851c276fc3",
+    "uuid": "f90fb5e3-c849-11f1-8e80-a36653fc4b97",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:55:02.726Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:39:06.192Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qj9fud07cuvO698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:55:02.726Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276f8b",
+    "uuid": "afd203b7-c849-11f1-8e80-a36653fc4b97",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:37:03.314Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18norrknh0tfdT698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276f73",
+    "uuid": "9fe4b6a9-c849-11f1-ba2b-9fdc2f63ab10",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:36:36.593Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18norrknh0tfdT698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276f5f",
+    "uuid": "981a1600-c849-11f1-ba2b-9fdc2f63ab10",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:36:23.521Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18norrknh0tfdT698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276f59",
+    "uuid": "907f100c-c849-11f1-b13b-f7de27ca185c",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:36:10.761Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18eqo1caY9yoCi698",
+        "type": "AppUser",
+        "alternateId": "eko.saputri@mock.com",
+        "displayName": "Eko Saputro"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18eqha13hZos2H698",
+        "type": "User",
+        "alternateId": "eko.saputri@mock.com",
+        "displayName": "Eko Saputro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18eqha13hZos2H698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276f57",
+    "uuid": "9003296d-c849-11f1-8472-03b40899929f",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:36:09.949Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18eqo1cdiGFUEv698",
+        "type": "AppUser",
+        "alternateId": "eko.saputri@mock.com",
+        "displayName": "Eko Saputro"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18eqha13hZos2H698",
+        "type": "User",
+        "alternateId": "eko.saputri@mock.com",
+        "displayName": "Eko Saputro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18eqha13hZos2H698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276f44",
+    "uuid": "8f3fb278-c849-11f1-91b5-dd6cc70c92f1",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:36:08.668Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18nhgv7xa4Jjkj698",
+        "type": "AppUser",
+        "alternateId": "eko.saputri@mock.com",
+        "displayName": "Eko Saputri"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      },
+      {
+        "id": "00u18eqha13hZos2H698",
+        "type": "User",
+        "alternateId": "eko.saputro@mock.com",
+        "displayName": "Eko Saputro"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18eqha13hZos2H698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276f43",
+    "uuid": "8f39bf07-c849-11f1-91b5-dd6cc70c92f1",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T03:36:08.629Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18norrknh0tfdT698",
+        "type": "AppUser",
+        "alternateId": "budi.wijaya@mock.com",
+        "displayName": "Budi Wijaya"
+      },
+      {
+        "id": "0oa18ggz85hI6IPY1698",
+        "type": "AppInstance",
+        "alternateId": "CSV Directory",
+        "displayName": "CSV Directory"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276ec9",
+    "uuid": "68f89a18-c844-11f1-9b88-57643ec5cdfc",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T02:59:16.965Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qhh6n1jMmz2f698",
+        "type": "AppUser",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18qhh6mm9n690A698",
+        "type": "User",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qhh6mm9n690A698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276ec8",
+    "uuid": "68ed4f76-c844-11f1-9b88-57643ec5cdfc",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T02:59:16.891Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qhh6my5E6Q3M698",
+        "type": "AppUser",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      },
+      {
+        "id": "0oa13hy89a63OiquB698",
+        "type": "AppInstance",
+        "alternateId": "My SAML Web",
+        "displayName": "My SAML Web"
+      },
+      {
+        "id": "00u18qhh6mm9n690A698",
+        "type": "User",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qhh6mm9n690A698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276ec7",
+    "uuid": "68e14184-c844-11f1-9b88-57643ec5cdfc",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T02:59:16.812Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qhh6mwloWKR9698",
+        "type": "AppUser",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey Luffy"
+      },
+      {
+        "id": "0oasemgh22cShTgNR697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Certification Reviews",
+        "displayName": "Okta Access Certification Reviews"
+      },
+      {
+        "id": "00u18qhh6mm9n690A698",
+        "type": "User",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qhh6mm9n690A698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276ec6",
+    "uuid": "68d385e3-c844-11f1-9b88-57643ec5cdfc",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T02:59:16.722Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qhh6mqYihkmr698",
+        "type": "AppUser",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18qhh6mm9n690A698",
+        "type": "User",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qhh6mm9n690A698"
+    ]
+  },
+  {
+    "_id": "6ad20284f58ce8851c276ec4",
+    "uuid": "68baa6b0-c844-11f1-9b88-57643ec5cdfc",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:42.834Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-15T02:59:16.559Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18qhngdm7mBcvT698",
+        "type": "AppUser",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey Luffy"
+      },
+      {
+        "id": "0oa18hv6upwq7S0Sa698",
+        "type": "AppInstance",
+        "alternateId": "difinite.lab",
+        "displayName": "Active Directory"
+      },
+      {
+        "id": "00u18qhh6mm9n690A698",
+        "type": "User",
+        "alternateId": "luffy@difinite.lab",
+        "displayName": "Monkey D Luffy"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:42.834Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18qhh6mm9n690A698"
+    ]
+  },
+  {
+    "_id": "6ad20260f58ce8851c276401",
+    "uuid": "cf2d77f8-c784-11f1-92c7-c930e0874914",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:54:23.801Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "202.51.105.234",
+    "location": "East Jakarta, Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-14T04:07:45.067Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18oxb3fgEiOHhY698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18jqkvx1dkg2NS698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking 2",
+        "displayName": "(Header Auth) Governance with SCIM 2.0"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:54:23.801Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20224f58ce8851c274e5d",
+    "uuid": "82dfcce0-c3c3-11f1-a9b6-db86b38265fe",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:22.524Z",
+    "displayMessage": "Remove user's application membership",
+    "eventType": "application.user_membership.remove",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T09:26:30.694Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18jdn0qfhzPq2Z698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18jdfwd850Q0bp698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:22.524Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20224f58ce8851c274e39",
+    "uuid": "9001e14a-c3c2-11f1-9004-8113be6d7e60",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:22.524Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T09:19:43.231Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18jdn0qfhzPq2Z698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18jdfwd850Q0bp698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:22.524Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20220f58ce8851c274ba2",
+    "uuid": "7964ebf6-c3b5-11f1-85e1-b32a0f5a920c",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:15.076Z",
+    "displayMessage": "Remove user's application membership",
+    "eventType": "application.user_membership.remove",
+    "ipAddress": "103.86.159.114",
+    "location": "Jakarta, Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T07:46:01.835Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18jafgx4rVLmO6698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hxw02aF3GHPz698",
+        "type": "AppInstance",
+        "alternateId": "Employee Portal",
+        "displayName": "Employee Portal"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:15.076Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad2021ff58ce8851c274a4c",
+    "uuid": "ce60a7a9-c3af-11f1-87f2-4f70815e88b4",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:15.076Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T07:05:27.433Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18jafgx4rVLmO6698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hxw02aF3GHPz698",
+        "type": "AppInstance",
+        "alternateId": "Employee Portal",
+        "displayName": "Employee Portal"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:15.076Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad2021ff58ce8851c274a4b",
+    "uuid": "ce5b2968-c3af-11f1-87f2-4f70815e88b4",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:15.076Z",
+    "displayMessage": null,
+    "eventType": "application.user_membership.restore_password",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T07:05:27.397Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "unknown",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hxw02aF3GHPz698",
+        "type": "AppInstance",
+        "alternateId": "Employee Portal",
+        "displayName": "Employee Portal"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:15.076Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad2021ff58ce8851c274a36",
+    "uuid": "a155e54e-c3af-11f1-8cc1-4fb268abb41e",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:15.076Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T07:04:11.865Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18erust0PR4vzM698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:15.076Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad2021ef58ce8851c2749c7",
+    "uuid": "60032278-c3ae-11f1-a453-af8a27b3e645",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:15.075Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": "182.3.44.164",
+    "location": "East Jakarta, Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T06:55:12.774Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18i2sc9iUGs31A698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18i2db6uwmdFkn698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:15.075Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad2021df58ce8851c2749a0",
+    "uuid": "3b44a9b9-c3ad-11f1-9441-dfa504afba9f",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:15.075Z",
+    "displayMessage": "Remove user's application membership",
+    "eventType": "application.user_membership.remove",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-09T06:47:01.631Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hy3i5fI0JoCC698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hxw02aF3GHPz698",
+        "type": "AppInstance",
+        "alternateId": "Employee Portal",
+        "displayName": "Employee Portal"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:15.075Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20219f58ce8851c274762",
+    "uuid": "94ae0330-c309-11f1-9fde-c3135a73490e",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T11:15:34.175Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18i2sc9iUGs31A698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18i2db6uwmdFkn698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20218f58ce8851c2745df",
+    "uuid": "4f2265e7-c2fb-11f1-8c7f-1792e03994cf",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T09:33:24.543Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hzu7z2IByMqT698",
+        "type": "AppUser",
+        "alternateId": "irfan.rizqulloh@difinite.com",
+        "displayName": "Irfan Rizqulloh"
+      },
+      {
+        "id": "0oa18hzb2rhe3zH1u698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u13hnwyyl4aqJhW698",
+        "type": "User",
+        "alternateId": "irfan.rizqulloh@difinite.com",
+        "displayName": "Irfan Rizqulloh"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u13hnwyyl4aqJhW698"
+    ]
+  },
+  {
+    "_id": "6ad20218f58ce8851c2745dc",
+    "uuid": "31a569f1-c2fb-11f1-ad7e-2124dee33144",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T09:32:35.070Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hztycyCpYdlI698",
+        "type": "AppUser",
+        "alternateId": "mordekhai.gerine@difinite.com",
+        "displayName": "Mordekhai Gerin"
+      },
+      {
+        "id": "0oa18hzb2rhe3zH1u698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u15fwl3n4PkAZTU698",
+        "type": "User",
+        "alternateId": "mordekhai.gerine@difinite.com",
+        "displayName": "Mordekhai Gerin"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u15fwl3n4PkAZTU698"
+    ]
+  },
+  {
+    "_id": "6ad20217f58ce8851c274506",
+    "uuid": "0eda7897-c2f9-11f1-a0f4-bffdd986e45b",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T09:17:17.704Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hzczpmF0UvhR698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hzb2rhe3zH1u698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20217f58ce8851c2744fc",
+    "uuid": "0501dfb7-c2f9-11f1-959a-bd5140e79657",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T09:17:01.185Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hzczpmF0UvhR698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hzb2rhe3zH1u698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20217f58ce8851c2744f8",
+    "uuid": "f552faab-c2f8-11f1-ad7e-2124dee33144",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T09:16:34.873Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hzd4wr46DcYE698",
+        "type": "AppUser",
+        "alternateId": "audry.wijaya@difinite.com",
+        "displayName": "Audry Wijaya"
+      },
+      {
+        "id": "0oa18hzb2rhe3zH1u698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18a24sjxSKYnUt698",
+        "type": "User",
+        "alternateId": "audry.wijaya@difinite.com",
+        "displayName": "Audry Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18a24sjxSKYnUt698"
+    ]
+  },
+  {
+    "_id": "6ad20217f58ce8851c2744ec",
+    "uuid": "ee38be9a-c2f8-11f1-babc-c537e0846348",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Remove user's application membership",
+    "eventType": "application.user_membership.remove",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T09:16:22.957Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hzawnuc0H5WU698",
+        "type": "AppUser",
+        "alternateId": "audry.wijaya@difinite.com",
+        "displayName": "Audry Wijaya"
+      },
+      {
+        "id": "0oa18hzb2rhe3zH1u698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18a24sjxSKYnUt698",
+        "type": "User",
+        "alternateId": "audry.wijaya@difinite.com",
+        "displayName": "Audry Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18a24sjxSKYnUt698"
+    ]
+  },
+  {
+    "_id": "6ad20217f58ce8851c2744ab",
+    "uuid": "7cd72be9-c2f8-11f1-9869-35fdd5e0395f",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:10.733Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T09:13:12.735Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hzawnuc0H5WU698",
+        "type": "AppUser",
+        "alternateId": "audry.wijaya@difinite.com",
+        "displayName": "Audry Wijaya"
+      },
+      {
+        "id": "0oa18hzb2rhe3zH1u698",
+        "type": "AppInstance",
+        "alternateId": "Core Banking",
+        "displayName": "Core Banking"
+      },
+      {
+        "id": "00u18a24sjxSKYnUt698",
+        "type": "User",
+        "alternateId": "audry.wijaya@difinite.com",
+        "displayName": "Audry Wijaya"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:10.733Z",
+    "userIds": [
+      "00u18erussuY04QmT698",
+      "00u18a24sjxSKYnUt698"
+    ]
+  },
+  {
+    "_id": "6ad20215f58ce8851c2743da",
+    "uuid": "26e02022-c2f3-11f1-bcff-3f375af3cc49",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:06.398Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T08:35:01.026Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hy3i5fI0JoCC698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hxw02aF3GHPz698",
+        "type": "AppInstance",
+        "alternateId": "Employee Portal",
+        "displayName": "Employee Portal"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:06.398Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad20215f58ce8851c2743c2",
+    "uuid": "dc2285b0-c2f2-11f1-9a68-9bca56112272",
+    "__v": 0,
+    "actor": {
+      "id": "00u18erussuY04QmT698",
+      "type": "User",
+      "alternateId": "marco.dermawan@difinite.com",
+      "displayName": "Marco Dermawan"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:53:06.398Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.34",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-08T08:32:55.632Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18hy3i5fI0JoCC698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa18hxw02aF3GHPz698",
+        "type": "AppInstance",
+        "alternateId": "Employee Portal",
+        "displayName": "Employee Portal"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:53:06.398Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c273714",
+    "uuid": "3c4519d7-c172-11f1-95df-675c00b71f5f",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:40.679Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18esa5yqhIyr9g698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemfsmsAFQdaiF697",
+        "type": "AppInstance",
+        "alternateId": "Okta Agent Registration",
+        "displayName": "Okta Agent Registration"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c273713",
+    "uuid": "3c3c6744-c172-11f1-95df-675c00b71f5f",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:40.622Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18esa5yfz2t5xA698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemge8oXgXLRBV697",
+        "type": "AppInstance",
+        "alternateId": "Okta Workflows OAuth",
+        "displayName": "Okta Workflows OAuth"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c273712",
+    "uuid": "3c32f161-c172-11f1-95df-675c00b71f5f",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:40.560Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18esa5xzIajfhx698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemge7zQ2mLeqG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Workflows",
+        "displayName": "Okta Workflows"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c273711",
+    "uuid": "3c2a8cee-c172-11f1-95df-675c00b71f5f",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:40.505Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18esa5xoSr0zZ3698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemg2ja4k8DMoS697",
+        "type": "AppInstance",
+        "alternateId": "Okta UD FPA",
+        "displayName": "Okta UD FPA"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c273710",
+    "uuid": "3c161a8b-c172-11f1-95df-675c00b71f5f",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:40.371Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18esa5x3jraclA698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oaz44xko84mdLxTS697",
+        "type": "AppInstance",
+        "alternateId": "Partner Admin Portal",
+        "displayName": "Partner Admin Portal"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c27370f",
+    "uuid": "3c06ffed-c172-11f1-86ae-bda7eb0be53d",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Updated user application property",
+    "eventType": "application.user_membership.update",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:40.272Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18erust0PR4vzM698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c27370e",
+    "uuid": "3bb0545b-c172-11f1-8087-cfc89069b255",
+    "__v": 0,
+    "actor": {
+      "id": "sprselw1xgpgqMlBQ697",
+      "type": "SystemPrincipal",
+      "alternateId": "system@okta.com",
+      "displayName": "Okta System"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": null,
+    "location": "",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:39.704Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18eryjypXqz6y2698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oaselw2412xSGsrV697",
+        "type": "AppInstance",
+        "alternateId": "Okta ISV Portal App",
+        "displayName": "Okta ISV Portal App"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c27370b",
+    "uuid": "3b972704-c172-11f1-8087-cfc89069b255",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.38",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:39:39.539Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18eryjygrlEvcV698",
+        "type": "AppUser",
+        "alternateId": "unknown",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oaselw1xrLdbxB7j697",
+        "type": "AppInstance",
+        "alternateId": "Okta Admin Console",
+        "displayName": "Okta Admin Console"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c2736e8",
+    "uuid": "d8f8b8d0-c171-11f1-acb1-fdd5d11c7797",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.38",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:36:54.084Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18erust0PR4vzM698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemlhqwz7pLRsG697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Requests",
+        "displayName": "Okta Access Requests"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c2736e7",
+    "uuid": "d8f7593f-c171-11f1-acb1-fdd5d11c7797",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.38",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:36:54.075Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18erust6BiOIG5698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oasemgh22cShTgNR697",
+        "type": "AppInstance",
+        "alternateId": "Okta Access Certification Reviews",
+        "displayName": "Okta Access Certification Reviews"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c2736e6",
+    "uuid": "d8f5f9ae-c171-11f1-acb1-fdd5d11c7797",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.38",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:36:54.066Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18erussxQWZ9IT698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa13hy89a63OiquB698",
+        "type": "AppInstance",
+        "alternateId": "My SAML Web",
+        "displayName": "My SAML Web"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  },
+  {
+    "_id": "6ad201e1f58ce8851c2736e5",
+    "uuid": "d8f4730c-c171-11f1-acb1-fdd5d11c7797",
+    "__v": 0,
+    "actor": {
+      "id": "00u15fwl3n4PkAZTU698",
+      "type": "User",
+      "alternateId": "mordekhai.gerine@difinite.com",
+      "displayName": "Mordekhai Gerin"
+    },
+    "category": "app_access",
+    "createdAt": "2026-10-16T10:52:15.202Z",
+    "displayMessage": "Add user to application membership",
+    "eventType": "application.user_membership.add",
+    "ipAddress": "103.76.178.38",
+    "location": "Indonesia",
+    "outcome": "SUCCESS",
+    "outcomeReason": null,
+    "published": "2026-10-06T10:36:54.056Z",
+    "severity": "INFO",
+    "targets": [
+      {
+        "id": "0ua18erust8SsIMun698",
+        "type": "AppUser",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      },
+      {
+        "id": "0oa13hr9bmkxNCQ79698",
+        "type": "AppInstance",
+        "alternateId": "My OIDC Web",
+        "displayName": "OpenID Connect Client"
+      },
+      {
+        "id": "00u18erussuY04QmT698",
+        "type": "User",
+        "alternateId": "marco.dermawan@difinite.com",
+        "displayName": "Marco Dermawan"
+      }
+    ],
+    "updatedAt": "2026-10-16T10:52:15.202Z",
+    "userIds": [
+      "00u15fwl3n4PkAZTU698",
+      "00u18erussuY04QmT698"
+    ]
+  }
+]
+
+=== SOURCE API MAPPING ===
+Identity: GET /api/v1/users
+Applications: GET /api/v1/apps
+Direct app assignments: GET /api/v1/apps/{appId}/users
+Groups: GET /api/v1/groups and GET /api/v1/groups/{groupId}/users
+App-to-group mapping: GET /api/v1/apps/{appId}/groups
+Audit history: Okta System Log, stored as OktaEvent

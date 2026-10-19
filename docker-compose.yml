@@ -1,0 +1,45 @@
+services:
+  app:
+    build: .
+    container_name: okta-iga-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/okta_iga
+      # SMTP diambil dari .env apa adanya; hanya SMTP_HOST=localhost (Mailpit untuk dev) diarahkan ke container mailpit
+      SMTP_LOCALHOST_ALIAS: mailpit
+    depends_on:
+      mongo:
+        condition: service_healthy
+      mailpit:
+        condition: service_started
+
+  mongo:
+    image: mongo:7
+    container_name: okta-iga-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 30s
+      retries: 10
+      start_period: 30s
+
+  # SMTP lokal untuk testing email (UI: http://localhost:8025)
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: okta-iga-mailpit
+    restart: unless-stopped
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+
+volumes:
+  mongo-data:
