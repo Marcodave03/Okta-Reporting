@@ -1,20 +1,21 @@
 # IGA Platform — Identity Governance terintegrasi Okta
 
-Aplikasi **fullstack monolitik Next.js 14 (App Router) + PostgreSQL**, dijalankan dengan **Docker**, untuk Identity Governance & Administration (IGA) di atas data Okta: access certification, Separation of Duties (SoD), role mining, risk scoring, dashboard eksekutif, reporting terjadwal, serta notifikasi email & Slack.
+Aplikasi **fullstack monolitik Next.js 14 (App Router) + MongoDB**, dijalankan dengan **Docker**, untuk Identity Governance & Administration (IGA) di atas data Okta: access certification, Separation of Duties (SoD), role mining, risk scoring, dashboard eksekutif, reporting terjadwal, serta notifikasi email & Slack.
 
 UI mengikuti gaya **Okta Admin Console** (sidebar putih, aksen biru `#1662dd`, font Public Sans) dan bisa diganti lewat **Settings › Appearance**: **5 theme**, **10 font**, **3 design layout**.
 
 ## Quick start
 
-Isi `DATABASE_URL` (PostgreSQL) di `.env`; tabel dibuat otomatis saat pertama dipakai:
+MongoDB **terinstall lokal** (Windows service, bukan Docker):
 
 ```powershell
+winget install --id MongoDB.Server -e      # sekali saja; service "MongoDB" jalan di localhost:27017
 cd "C:\code\Okta Reporting Dashboard"
 npm install
 npm run dev                                # http://localhost:3000
 ```
 
-Opsional — app + PostgreSQL di Docker:
+Opsional — app di Docker (tetap memakai MongoDB lokal via `host.docker.internal`):
 
 ```powershell
 docker compose up -d --build
@@ -23,7 +24,7 @@ docker compose up -d --build
 | Service | URL |
 |---|---|
 | Aplikasi | http://localhost:3000 |
-| PostgreSQL (docker compose) | postgresql://iga:iga@localhost:5432/okta_iga |
+| MongoDB (lokal) | mongodb://localhost:27017/okta_iga |
 | Mailpit (hanya bila pakai docker compose) | http://localhost:8025 |
 
 Login awal: `admin@iga.local` / `Admin123!` (ubah via `ADMIN_EMAIL` / `ADMIN_PASSWORD` sebelum start pertama).
@@ -44,4 +45,4 @@ Bila `SEED_DEMO_DATA=true`, database kosong otomatis diisi data demo sehingga se
 
 ## Stack
 
-Next.js 14 · React 18 · TypeScript · PostgreSQL (node-postgres, JSONB) · Recharts · ExcelJS · jsPDF · Nodemailer · jose (JWT) · Docker Compose.
+Next.js 14 · React 18 · TypeScript · MongoDB 7 (Mongoose 8) · Recharts · ExcelJS · jsPDF · Nodemailer · jose (JWT) · Docker Compose.
