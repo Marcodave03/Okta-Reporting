@@ -8,29 +8,34 @@ services:
     env_file:
       - .env
     environment:
-      MONGODB_URI: mongodb://mongo:27017/okta_iga
+      # Postgres lokal di container; hapus baris ini untuk memakai DATABASE_URL dari .env (mis. Clever Cloud)
+      DATABASE_URL: postgresql://iga:iga@postgres:5432/okta_iga
       # SMTP diambil dari .env apa adanya; hanya SMTP_HOST=localhost (Mailpit untuk dev) diarahkan ke container mailpit
       SMTP_LOCALHOST_ALIAS: mailpit
     depends_on:
-      mongo:
+      postgres:
         condition: service_healthy
       mailpit:
         condition: service_started
 
-  mongo:
-    image: mongo:7
-    container_name: okta-iga-mongo
+  postgres:
+    image: postgres:16
+    container_name: okta-iga-postgres
     restart: unless-stopped
+    environment:
+      POSTGRES_USER: iga
+      POSTGRES_PASSWORD: iga
+      POSTGRES_DB: okta_iga
     ports:
-      - "27017:27017"
+      - "5432:5432"
     volumes:
-      - mongo-data:/data/db
+      - pg-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      test: ["CMD", "pg_isready", "-U", "iga", "-d", "okta_iga"]
       interval: 10s
-      timeout: 30s
+      timeout: 10s
       retries: 10
-      start_period: 30s
+      start_period: 20s
 
   # SMTP lokal untuk testing email (UI: http://localhost:8025)
   mailpit:
@@ -42,4 +47,4 @@ services:
       - "1025:1025"
 
 volumes:
-  mongo-data:
+  pg-data:
