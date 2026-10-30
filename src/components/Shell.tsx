@@ -21,6 +21,7 @@ const NAV: { section: string; items: NavItem[] }[] = [
       { href: '/dashboard', label: 'Executive Overview', icon: LayoutDashboard },
       { href: '/dashboard/certifications', label: 'Certification Status', icon: ClipboardCheck },
       { href: '/dashboard/sod', label: 'SoD & Risk', icon: ShieldAlert },
+      { href: '/dashboard/posture', label: 'Security Posture', icon: Activity, roles: ['admin', 'auditor'] },
       { href: '/dashboard/custom', label: 'My Dashboard', icon: LayoutGrid },
     ],
   },

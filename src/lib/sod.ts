@@ -1,4 +1,4 @@
-import { Assignment, Entitlement, Identity, SodPolicy, SodViolation } from './models';
+import { Assignment, Entitlement, Identity, Setting, SodPolicy, SodViolation } from './models';
 import { emit } from './notify';
 import { computeRiskScores, takeSnapshot } from './risk';
 import { escapeHtml } from './util';
@@ -106,7 +106,119 @@ export const SOD_TEMPLATES = [
     sideB: { label: 'Sales Order Entry', patterns: ['sales order.*entry', 'order.*entry'] },
     mitigation: 'Review mingguan perubahan credit limit.',
   },
+  ...OKTA_TEMPLATES(),
 ];
+
+/**
+ * Kebijakan SoD untuk entitlement yang benar-benar berasal dari Okta (nama group & "<App> - Access").
+ * Template ERP di atas memakai nama hak akses bisnis (vendor, journal, …) yang tidak pernah muncul di Okta,
+ * sehingga tanpa template ini SoD scan pada data Okta selalu menghasilkan 0 pelanggaran.
+ * `autoInstall: true` → dipasang otomatis saat belum ada policy sama sekali (lihat ensureDefaultSodPolicies).
+ */
+function OKTA_TEMPLATES() {
+  const ADMIN = ['okta admin', 'super ?admin', 'superadmin', 'security[-_ ]admin', '(^|[-_ ])admin(istrator)?s?$', 'privileged access'];
+  return [
+    {
+      key: 'okta-pam-admin-approver',
+      name: 'Privileged Access Admin vs Privileged Access Approver',
+      category: 'Okta · Privileged Access',
+      severity: 'critical',
+      description: 'Admin Okta Privileged Access (OPA) tidak boleh sekaligus menjadi approver akses server/aplikasi — dapat menyetujui aksesnya sendiri.',
+      sideA: { label: 'OPA / PAM Admin', patterns: ['^opa_admin', '(privileged access|pam).*admin'] },
+      sideB: { label: 'OPA / PAM Approver', patterns: ['opa_.*approver', '(pam|privileged).*approv'] },
+      mitigation: 'Pisahkan grup admin dan approver OPA; approval oleh pihak independen.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-idadmin-approver',
+      name: 'Identity Admin vs Access Approver',
+      category: 'Okta · Identity',
+      severity: 'high',
+      description: 'Admin Okta (Admin Console / Okta Administrators / super admin) tidak boleh menjadi approver akses — dapat memberi dan menyetujui akses sendiri.',
+      sideA: { label: 'Okta / Identity Admin', patterns: ['okta admin', 'super ?admin', 'superadmin', 'identity.*admin'] },
+      sideB: { label: 'Access Approver', patterns: ['approver'] },
+      mitigation: 'Approval akses dilakukan manager/app owner, bukan admin IdP.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-admin-mfa-bypass',
+      name: 'Privileged Admin vs MFA Bypass',
+      category: 'Okta · Authentication',
+      severity: 'critical',
+      description: 'Akun dengan hak admin tidak boleh berada di grup pengecualian MFA — kredensial admin yang bocor langsung bisa dipakai.',
+      sideA: { label: 'Privileged Admin', patterns: ADMIN },
+      sideB: { label: 'MFA Bypass / Exempt', patterns: ['bypass[-_ ]?mfa', 'mfa[-_ ]?(bypass|exempt|exclu)'] },
+      mitigation: 'Keluarkan admin dari grup bypass MFA; wajibkan phishing-resistant MFA untuk admin.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-idp-admin-business-app',
+      name: 'Okta Admin vs Core Business Application',
+      category: 'Okta · Identity',
+      severity: 'high',
+      description: 'Admin IdP yang juga punya akses ke aplikasi inti bisnis (core banking/T24/switching) dapat memberi dirinya akses tambahan tanpa terdeteksi.',
+      sideA: { label: 'Okta Admin', patterns: ['okta admin'] },
+      sideB: { label: 'Core Business App', patterns: ['core banking', 't24', 'indigo bank', 'piggy-bank', 'proswitch'] },
+      mitigation: 'Gunakan akun admin terpisah (tiering) dan review berkala akses aplikasi inti.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-teller-supervisor',
+      name: 'Teller vs Teller Supervisor / Manager',
+      category: 'Banking · Operations',
+      severity: 'high',
+      description: 'Teller (maker) tidak boleh merangkap supervisor/manager teller (checker) — maker-checker dilanggar.',
+      sideA: { label: 'Teller (maker)', patterns: ['(^|[-_ ])teller$'] },
+      sideB: { label: 'Teller Supervisor / Manager (checker)', patterns: ['teller[-_ ]?(supervisor|manager)'] },
+      mitigation: 'Dual control: otorisasi transaksi oleh supervisor yang berbeda.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-finance-owner',
+      name: 'Finance User vs Finance Owner / Approver',
+      category: 'Finance',
+      severity: 'high',
+      description: 'User finance (maker) tidak boleh sekaligus owner/approver finance (checker).',
+      sideA: { label: 'Finance User', patterns: ['(^|[-_ ])finance$'] },
+      sideB: { label: 'Finance Owner / Approver', patterns: ['finance[-_ ]?(owner|approv)'] },
+      mitigation: 'Approval transaksi finance oleh owner yang berbeda.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-ops-security-approver',
+      name: 'Banking Operations vs Security Approver',
+      category: 'Banking · Operations',
+      severity: 'high',
+      description: 'Staf operasional tidak boleh menjadi approver keamanan atas proses yang dijalankannya sendiri.',
+      sideA: { label: 'Banking Operations', patterns: ['banking ops', 'operation'] },
+      sideB: { label: 'Security Approver', patterns: ['security[-_ ]?approv'] },
+      mitigation: 'Approver keamanan dari fungsi risk/security yang independen.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-thirdparty-privileged',
+      name: 'Third-Party / Temporary Account vs Privileged Access',
+      category: 'Okta · Privileged Access',
+      severity: 'critical',
+      description: 'Akun pihak ketiga, kontraktor, atau akses sementara tidak boleh memegang hak admin/privileged.',
+      sideA: { label: 'Third-party / Temporary', patterns: ['third[-_ ]?party', 'contractor', 'temp(orary)?[-_ ]?access'] },
+      sideB: { label: 'Privileged Admin', patterns: ADMIN },
+      mitigation: 'Privileged access untuk pihak ketiga hanya just-in-time via PAM dengan expiry.',
+      autoInstall: true,
+    },
+    {
+      key: 'okta-secadmin-monitoring',
+      name: 'Security Admin vs Security Monitoring Tools',
+      category: 'IT · Security',
+      severity: 'medium',
+      description: 'Security/super admin yang juga mengelola tools monitoring/audit dapat menghapus jejak aktivitasnya.',
+      sideA: { label: 'Security / Super Admin', patterns: ['security[-_ ]admin', 'super ?admin', 'superadmin'] },
+      sideB: { label: 'Security Monitoring / Audit', patterns: ['security tools', 'audit', 'siem'] },
+      mitigation: 'Log keamanan dikirim ke SIEM yang dikelola tim terpisah.',
+      autoInstall: true,
+    },
+  ];
+}
 
 function compile(patterns: string[] = []) {
   return patterns
@@ -121,7 +233,7 @@ function compile(patterns: string[] = []) {
     });
 }
 
-function resolveSide(side: any, ents: any[]) {
+export function resolveSide(side: any, ents: any[]) {
   const ids = new Set<string>((side?.entitlementIds || []).map(String));
   const rx = compile(side?.patterns);
   for (const e of ents) if (rx.some((r) => r.test(e.name || ''))) ids.add(String(e._id));
@@ -148,6 +260,26 @@ export async function installTemplate(key: string, mode: 'predefined' | 'custom'
     enabled: true,
     createdBy: actor,
   });
+}
+
+/**
+ * Pasang template `autoInstall` sekali saja bila belum ada SoD policy sama sekali.
+ * Tanpa policy, runSodScan tidak punya aturan untuk dievaluasi → dashboard SoD selalu 0.
+ * Ditandai di Setting agar policy yang sengaja dihapus admin tidak dipasang ulang.
+ */
+export async function ensureDefaultSodPolicies() {
+  if (await Setting.exists({ key: 'sod.defaultsInstalled' })) return 0;
+  let installed = 0;
+  if ((await SodPolicy.countDocuments({})) === 0) {
+    for (const t of SOD_TEMPLATES) {
+      if (!(t as any).autoInstall) continue;
+      await installTemplate(t.key, 'predefined', 'system');
+      installed++;
+    }
+  }
+  await Setting.updateOne({ key: 'sod.defaultsInstalled' }, { $set: { value: { at: new Date(), installed } } }, { upsert: true });
+  if (installed) console.log(`[sod] ${installed} default Okta SoD policies installed`);
+  return installed;
 }
 
 /** Preview entitlement yang cocok dengan sisi A/B sebuah policy. */

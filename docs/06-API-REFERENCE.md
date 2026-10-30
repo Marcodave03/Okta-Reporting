@@ -72,6 +72,7 @@ Contoh body campaign:
 | GET/POST | `/sod/templates` | any/admin | library predefined; POST `{key, mode: predefined\|custom}` |
 | POST | `/sod/preview` | any | entitlement yang cocok dengan sisi A/B |
 | POST | `/sod/scan` | admin | jalankan SoD engine |
+| GET | `/posture?range=24h\|7d\|30d` | admin, auditor | Identity Security Posture: user yang melanggar SoD per jam (rekonstruksi dari System Log), timeline konflik, sinyal keamanan Okta, posture score |
 | GET | `/sod/violations?status&severity&policyId&q` | any | |
 | PATCH | `/sod/violations/:id` | admin | `{status: open\|mitigated\|accepted\|remediated, note}` |
 

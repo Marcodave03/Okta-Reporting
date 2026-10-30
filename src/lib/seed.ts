@@ -1,6 +1,6 @@
 import {
   Application, Assignment, AuditLog, Campaign, CertItem, Entitlement, Identity, NotificationLog,
-  ReportDef, ReportRun, ReportSchedule, Role, Snapshot, SodPolicy, SodViolation,
+  ReportDef, ReportRun, ReportSchedule, Role, Setting, Snapshot, SodPolicy, SodViolation,
 } from './models';
 import { entitlementRisk } from './okta';
 import { installTemplate, runSodScan, SOD_TEMPLATES } from './sod';
@@ -13,6 +13,8 @@ export async function clearGovernanceData() {
   await Promise.all(
     [Identity, Application, Entitlement, Assignment, Role, SodPolicy, SodViolation, Snapshot, Campaign, CertItem, ReportSchedule, ReportRun, NotificationLog, AuditLog].map((m) => m.deleteMany({})),
   );
+  // policy ikut terhapus → izinkan policy SoD default Okta dipasang ulang pada sync berikutnya
+  await Setting.deleteOne({ key: 'sod.defaultsInstalled' });
 }
 
 function rng(seed: number) {

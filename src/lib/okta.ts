@@ -1,6 +1,6 @@
 import { Application, Assignment, Entitlement, Identity, OktaEvent, Setting } from './models';
 import { getConfig } from './settings';
-import { runSodScan } from './sod';
+import { ensureDefaultSodPolicies, runSodScan } from './sod';
 import { emit } from './notify';
 import { audit } from './audit';
 import { daysAgo } from './util';
@@ -279,6 +279,7 @@ export async function syncFromOkta(actor = 'system') {
 
     // ---------- Analitik ----------
     state.step = 'sod-scan';
+    await ensureDefaultSodPolicies();
     const sod = await runSodScan({ notify: true });
 
     const result = { users: users.length, groups: groups.length, apps: apps.length, assignments: assignmentCount, events: events?.fetched ?? null, sod, duration: Math.round((Date.now() - t0) / 1000) };
