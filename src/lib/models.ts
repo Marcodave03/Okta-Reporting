@@ -1,11 +1,7 @@
-import mongoose, { Schema, Model } from 'mongoose';
+import { Schema, model } from './docdb';
 
 const ObjectId = Schema.Types.ObjectId;
 const ts = { timestamps: true };
-
-function model(name: string, schema: Schema): Model<any> {
-  return (mongoose.models[name] as Model<any>) || mongoose.model(name, schema);
-}
 
 /* ---------------- Application users (login ke platform IGA) ---------------- */
 export const AppUser = model(

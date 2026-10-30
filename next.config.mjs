@@ -5,7 +5,7 @@ const nextConfig = {
   experimental: {
     instrumentationHook: true,
     serverComponentsExternalPackages: [
-      'mongoose',
+      'pg',
       'nodemailer',
       'exceljs',
       'jspdf',
